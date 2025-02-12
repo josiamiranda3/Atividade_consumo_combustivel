@@ -1,7 +1,7 @@
-```markdown
+
 # Consumo de Combustível
 
-## Descrição
+ Descrição
 
 Este projeto tem como objetivo calcular o consumo de combustível de um veículo com base na distância percorrida e na quantidade de combustível utilizada. O programa solicita ao usuário que informe esses valores e, com base nisso, calcula a média de consumo (km/l).
 
@@ -14,21 +14,8 @@ Este projeto tem como objetivo calcular o consumo de combustível de um veículo
 
  Tecnologias Utilizadas
 
-- Linguagem: JavaScript
-- Ambiente: Node.js ou navegador
-
- Como Executar
-
-1. Clone este repositório:
-
-git clone [https://github.com/seu-usuario/consumo-combustivel.git](https://github.com/seu-usuario/consumo-combustivel.git)
-
-2. Acesse a pasta do projeto:
-
-cd consumo-combustivel
-
-
-3. Execute o código em um ambiente compatível (navegador ou Node.js).
+- Linguagem: JavaScript,HTML,CSS
+- Ambiente:  navegador
 
  Tratamento de NaN (Not-a-Number)
 
@@ -37,8 +24,4 @@ O tratamento de NaN neste código ocorre por meio da função `isNaN()`, que é 
 Caso seja detectado um valor inválido (NaN), uma mensagem de erro é exibida ao usuário, solicitando que ele insira valores corretos. Isso impede que valores inválidos se propaguem e causem erros na exibição dos resultados, garantindo um funcionamento confiável do programa.
 
 
- Observações
 
-- Certifique-se de substituir `"https://github.com/seu-usuario/consumo-combustivel.git"` pelo URL real do seu repositório.
-- Adapte as instruções de execução caso seu projeto utilize ferramentas de build ou gerenciadores de pacotes (npm, yarn, etc.).
-- Para mais informações sobre o tratamento de NaN em JavaScript, consulte a documentação oficial: [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN)
